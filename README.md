@@ -27,5 +27,8 @@ An interactive web app built with **HTML, CSS, and JavaScript** that converts us
 1. Clone the repository: git clone https://github.com/varsha-singh-uidev/string-transformers.git
 2. Navigate to the project folder: cd string-transformers
 3. Open index.html in your browser.
-4. Type any sentence in the input field and watch it transform instantly!Navigate to the project folder:
+4. Type any sentence in the input field and watch it transform instantly!Navigate to the project folder.
+
+## Demo video
+https://github.com/user-attachments/assets/489563d3-bf09-44dc-80f4-a203b81d16fc
 
