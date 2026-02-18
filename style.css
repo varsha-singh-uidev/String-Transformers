@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    box-sizing: border-box;
+}
+/* ====== Container of heading and input ====== */
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 35px;
+}
+
+/* ====== Input field ====== */
+.input-field{
+    min-width: 600px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* ====== Container of output field ====== */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    padding-inline: 100px;
+}
+/* ====== That contain the output ====== */
+p{
+    width: 600px;
+    height: 50px;
+    background-color: #F5F5DC;
+    font-size: 18px;
+    margin-top: 0;
+    border-radius: 2px;
+    padding-left: 15px;
+    padding-top: 13px;
+}
+label{
+    position: relative;
+}
+/* ====== It is the heading wrap around the label ====== */
+span{
+    color: white;
+    background-color: rgb(44, 41, 41);
+    position: absolute;
+    top: -0.75rem;
+    left: 1rem;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}
+/* ====== Responsive Design ====== */
+@media (max-width: 600px){
+  h1{
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .input-field{
+    min-width: 480px;
+  }
+  p{
+   width: 480px;
+   height: 40px;
+   font-size: 15px;
+  }
+}
